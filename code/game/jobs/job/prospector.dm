@@ -30,6 +30,7 @@
 		STAT_MEC = 10,
 		STAT_BIO = 10
 	)
+	disallow_species = list(FORM_BSSYNTH)
 
 	software_on_spawn = list(/datum/computer_file/program/comm,
 							 /datum/computer_file/program/digitalwarrant,
@@ -85,6 +86,7 @@
 		STAT_VIG = 10,
 		STAT_ROB = 10
 	)
+	disallow_species = list(FORM_BSSYNTH)
 
 	perks = list(/datum/perk/junkborn, /datum/perk/stalker)
 
@@ -130,6 +132,7 @@
 		STAT_ROB = 20,
 		STAT_COG = 10
 	)
+	disallow_species = list(FORM_BSSYNTH)
 
 	perks = list(/datum/perk/stalker, /datum/perk/job/prospector_conditioning)
 
