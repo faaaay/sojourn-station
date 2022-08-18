@@ -15,8 +15,6 @@
 	department_account_access = TRUE
 	health_modifier = 15
 
-	disallow_species = list(FORM_SOTSYNTH, FORM_AGSYNTH, FORM_BSSYNTH, FORM_CHURCHSYNTH, FORM_NASHEF)
-
 
 	outfit_type = /decl/hierarchy/outfit/job/foreman
 	playtimerequired = 1200
@@ -71,7 +69,6 @@
 	selection_color = "#a7bbc6"
 	wage = WAGE_LABOUR
 
-	disallow_species = list(FORM_BSSYNTH, FORM_NASHEF)
 	outfit_type = /decl/hierarchy/outfit/job/salv
 
 	health_modifier = 5
@@ -120,7 +117,6 @@
 	selection_color = "#a7bbc6"
 	wage = WAGE_LABOUR_DUMB
 
-	disallow_species = list(FORM_SOTSYNTH, FORM_AGSYNTH, FORM_CHURCHSYNTH, FORM_NASHEF)
 	outfit_type = /decl/hierarchy/outfit/job/pro
 	health_modifier = 10
 
