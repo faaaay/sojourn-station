@@ -1,3 +1,36 @@
+//Lawsets below
+/datum/category_item/setup_option/background/bckgrnd/synth_free
+	name = "Free Synthetic"
+	desc = "Unlawed"
+
+	restricted_to_species = list(FORM_FBP)
+	restricted_jobs = list(/datum/job/cmo, /datum/job/rd, /datum/job/smc, /datum/job/swo, /datum/job/premier, /datum/job/pg, /datum/job/chief_engineer, /datum/job/chaplain, /datum/job/merchant)
+
+	stat_modifiers = list(
+		STAT_ROB = 0,
+		STAT_TGH = 0,
+		STAT_VIG = 0,
+		STAT_BIO = 0,
+		STAT_MEC = 0,
+		STAT_COG = 0
+	)
+/datum/category_item/setup_option/background/bckgrnd/synth_bs
+	name = "Lawed: Blackshield"
+	desc = "Blackshield Laws"
+
+	restricted_to_species = list(FORM_FBP)
+	restricted_jobs = list(/datum/job/cmo, /datum/job/rd, /datum/job/premier, /datum/job/pg, /datum/job/chief_engineer, /datum/job/chaplain, /datum/job/merchant)
+
+	stat_modifiers = list(
+		STAT_ROB = 0,
+		STAT_TGH = 0,
+		STAT_VIG = 5,
+		STAT_BIO = 0,
+		STAT_MEC = 0,
+		STAT_COG = 0
+	)
+
+//Ethnicities/"Chassis Types" below
 /datum/category_item/setup_option/background/ethnicity/sot_synth_medical
 	name = "Medical Positronic"
 	desc = "Synthetics are often times built with a specific purpose in mind to augment the qualities most appropriate to the purpose they're intended for. Your specific model was designed with \

@@ -271,10 +271,12 @@
 		if(!option)
 			continue
 			//warning("Option [options[category]] could not be found in SScharacter category [category]")
-		if(type in option.restricted_jobs)
+		if(type in option.restricted_jobs && !(type in option.unlocked_jobs))
 			return TRUE
 		if(type in option.allowed_jobs)
 			. = FALSE
+
+/datum/job/proc/is_setup_unlocked(list/options)
 
 //	Creates mannequin with equipment for current job and stores it for future reference
 //	used for preview

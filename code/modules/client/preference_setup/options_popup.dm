@@ -94,6 +94,13 @@
 				dat += "[initial(J.title)]<br>" //enjoy your byond magic
 			dat += "<br>"
 
+		if(selected_option.unlocked_jobs.len)
+			dat += "Unlocked jobs:<br>"
+			for(var/job in selected_option.unlocked_jobs)
+				var/datum/job/J = job
+				dat += "[initial(J.title)]<br>" //enjoy your byond magic
+			dat += "<br>"
+
 	if(selected_option.perks.len)
 		dat += "Perks:<br>"
 		for(var/perk in selected_option.perks)

@@ -10,6 +10,7 @@
 	var/allowed_depts = 0
 	var/list/restricted_jobs = list() //job paths
 	var/list/allowed_jobs = list()
+	var/list/unlocked_jobs = list() //Unlocks jobs that WOULD be species-locked via disallow_species. Distinct from allowed_jobs, which prevents jobs from being restricted.
 	var/list/stat_modifiers = list()  //STAT = number
 	var/list/perks = list()           //perk paths
 	var/allow_modifications = TRUE
